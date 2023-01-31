@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title> 
+    <!--Debe ir despues del titulo -->
+    <!--pendiente investigar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <link rel="preload" href=".styles/normalize.css" as="style">
+    <link rel="preload" href=".styles/estilos.css" as="style">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/estilos.css"
+   
+</head>
+<body> <!-- Todo lo que el usuario ve, cuerpo de la pagina -->
+    <!-- h significa heading -->
+    <header class="h1Header">
+        <!-- h1 solo puede usarse una vez -->
+        <h1 class="tituloPagina"> Carlos Alberto MB <span>Freelancer</span> </h1> <!-- h1 hasta h6 -->
+        <!-- etiquetas h definen la importancia de los textos -->
+    </header>
+    <div class="navegacionBackground">
+        <!--Hijos del nav deben ser solo enlaces
+        por buenas prácticas de diseño-->
+        <nav class="navegacionPrincipal contenedor">
+            <!--Signo de # indica que el archivo destino
+            sigue pendiente-->
+            <!--Elemento de navegacion, href referencia a...-->
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div> 
+    
+    <!--Si el primer elemento
+    de esta etiqueta es un heading
+    h1, h2 etc. se utiliza section
+    caso contrario un div o a menos
+    que sea el contenido principal
+    puede usarse muchas veces-->
+    <section class="hero">
+        <div class="contenedorHero">
+            <h2>Segundo intento por aprender programacion web</h2>
+            <!-- P parrafo, uso muy comun -->
+            
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg>
+                Misantla Ver.</p>
+            <a href="#" class="boton">contactar</a>
+        </div> 
+        
+        
+    </section> <!--Division de uso general, utilizar cuando sea necesario-->
+    
+    <main class="contenedor sombra">
+        <h2>Mis servicios</h2>
+        <!--Lorem obtiene texto para las pruebas-->
+        <div class="serviciosGrid">
+            <section class="indServicio">
+                <h3>Diseño web</h3>
+                <!--tabler icons para generar imagenes
+                svg-->
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                        <path d="M11.5 3a17 17 0 0 0 0 18" />
+                        <path d="M12.5 3a17 17 0 0 1 0 18" />
+                      </svg>
+                </div>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis, debitis fugiat accusantium consequatur harum at, doloribus vitae cum magni reprehenderit</p>
+            </section>
+            
+            <section class="indServicio">
+                <h3>Programacion movil</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="7" y="4" width="10" height="16" rx="1" />
+                        <line x1="11" y1="5" x2="13" y2="5" />
+                        <line x1="12" y1="17" x2="12" y2="17.01" />
+                      </svg>
+                </div>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis, debitis fugiat accusantium consequatur harum at, doloribus vitae cum magni reprehenderit</p>
+            </section>
+            
+            <section class="indServicio">
+                <h3>Comercio electrónico</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="17" cy="19" r="2" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                      </svg> 
+                </div>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis, debitis fugiat accusantium consequatur harum at, doloribus vitae cum magni reprehenderit</p>
+            </section>
+            
+        </div>
+        <h2>Contacto</h2>
+        <section class="formularioCss">
+            
+            <form>
+                <!--Fieldset contenido del formulario
+                legend, texto dentro del cuadro
+                label etiqueta previa al campo de texto-->
+                <fieldset>
+                    <legend>Contactanos</legend>
+                    <div class="inputs">
+                        <div class="inputIndividual">
+                            <label>Nombre</label>
+                                            <!--Texto de ejemplo-->
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        
+                        <div class="inputIndividual">
+                            <label>telefono</label>
+                            <input type="tel" placeholder="telefono">
+                        </div>  
+                        
+                        <div class="inputIndividual">
+                            <label>Correo</label>
+                            <input type="email" placeholder="correo">
+                        </div>
+        
+                        <div class="inputIndividual">
+                            <label>Comentario</label>
+                            <textarea></textarea>
+                        </div>
+        
+                        
+                    </div>
+                    <div class="centrar">
+                        <input class="boton" type="submit" value="enviar">
+                    </div>
+    
+    
+                    
+                
+                </fieldset>
+            </form>
+    
+        </section>
+        
+     
+    </main>
+
+    
+
+    <footer>
+        <p>Derechos reservados</p>
+    </footer> 
+</body>
+</html>
+
+<!--  -->
